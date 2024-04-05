@@ -1,0 +1,9 @@
+{
+    "version": 4,
+    "vendor": {
+        "conan": {}
+    },
+    "include": [
+        "/home/kokaliel/Documents/faculdade/ic/project/Graph POC/MELON/build/debug/CMakePresets.json"
+    ]
+}
