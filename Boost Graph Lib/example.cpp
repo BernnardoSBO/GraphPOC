@@ -124,7 +124,6 @@ void example0a()
 
     // a) retrieving the vertices
     //      vertex iterator
-
     typedef boost::graph_traits<MyGraph>::vertex_iterator MyVertexIterator; // defines iterator type. This type is a pointer to the vertex_descriptor
     MyVertexIterator vi, vi_end;
 

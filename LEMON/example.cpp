@@ -6,7 +6,7 @@
 using namespace lemon;
 void Tutorial() 
 {
-     ListDigraph g;
+    ListDigraph g;
 
     ListDigraph::Node v[9];
     for (int i = 0; i < 9; ++i)
@@ -32,7 +32,7 @@ void Tutorial()
     // methods source and target in graph
     if (g.source(a5_loop) == g.target(a5_loop))
         std::cout << "This is a loop arc" << std::endl;
-
+        
     // arcs and nodes have an unique non-negative identifier in their respective categories
     std::cout << "Arc a1 has the id " << g.id(a1) << std::endl;
     std::cout << "Vertex a1 has the id " << g.id(v1) << std::endl;

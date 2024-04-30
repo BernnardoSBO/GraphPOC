@@ -15,6 +15,7 @@
 
 # How to setup MELON
 This will explain how to link melon with a CMake project. To do so, is expected that there's a CMakeLists.txt configuring the build of the project in question.
+ns 3
 
 1. Install dependencies:
    1.  `gcc 12+`
